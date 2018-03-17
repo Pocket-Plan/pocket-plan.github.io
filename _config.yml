@@ -1,5 +1,3 @@
-# Welcome to Jekyll!
-#
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
@@ -17,11 +15,16 @@ title: Pocket Plan
 email: cornelius.soon@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This website is my personal framework for accelerated learning and prototyping.
-  I'm here to learn Linux, Chinese, Emacs and write Essays.
+  I'm here to learn Linux, Chinese, Emacs and the art of writing Essays.
 baseurl: "" # the subpath of your site, e.g. /blog
+# only when live baseurl: "pocket-plan.github.io"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: csrail
+
+collections:
+  essays:
+    output: true
 
 # Build settings
 markdown: kramdown
@@ -40,3 +43,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+

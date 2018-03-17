@@ -2,7 +2,7 @@
 layout: post
 title:  "Project Start"
 date: 2018-03-16
-categories: jekyll update
+categories: diary plan
 ---
 Wow, I would have tried starting this project back in December 2017? (@ exactly 2017-12-11 19:46:46 +1300) Yikes. Time flies when you don't have a plan, so let's make one:
 
