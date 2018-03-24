@@ -25,6 +25,8 @@ github_username: csrail
 collections:
   essays:
     output: true
+  emacs:
+    output: true
 
 # Build settings
 markdown: kramdown

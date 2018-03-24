@@ -26,7 +26,15 @@ layout: default
       <span class="post-meta">{{ item.date | date: date_format }}</span>
       <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
       <p>{{ item.description }}</p>
-      {% endfor %}
+    {% endfor %}
+  </ul>
+  <h1 class="page-heading">Emacs</h1>
+  <ul class="post-list">
+    {% for item in site.emacs %}
+      <span class="post-meta">{{ item.date | date: date_format }}</span>
+      <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+      <p>{{ item.description }}</p>
+    {% endfor %}
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
