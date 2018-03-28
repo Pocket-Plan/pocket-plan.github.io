@@ -39,6 +39,16 @@ layout: default
     {% endfor %}
   </ul>
 
+    <h1 class="page-heading">Gym</h1>
+  <ul class="post-list">
+    {% for item in site.gym %}
+      <span class="post-meta">{{ item.date | date: date_format }}</span>
+      <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+      <p>{{ item.description }}</p>
+    {% endfor %}
+  </ul>
+
+
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
 </div>
